@@ -1,4 +1,4 @@
-# SmartImageView [![](https://jitpack.io/v/TeleClinic/SmartImageView.svg)](https://jitpack.io/#TeleClinic/SmartImageView)
+# SmartImageView [![](https://jitpack.io/v/Dinox869/smartimageview.svg)](https://jitpack.io/#Dinox869/smartimageview)
 Smart Image View for Android where you can add multiple images and choose the shape (circle or square) and the size.
 
 
@@ -22,7 +22,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.TeleClinic:SmartImageView:1.1.0'
+	       implementation 'com.github.Dinox869:smartimageview:0.0.1'
 	}
 
 <b>Maven</b>
@@ -39,9 +39,9 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
 	<dependency>
-	    <groupId>com.github.TeleClinic</groupId>
-	    <artifactId>SmartImageView</artifactId>
-	    <version>1.1.0</version>
+	    <groupId>com.github.Dinox869</groupId>
+	    <artifactId>smartimageview</artifactId>
+	    <version>Tag</version>
 	</dependency>
 	
 # How to Use
