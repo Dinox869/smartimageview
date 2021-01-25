@@ -58,6 +58,7 @@ class SmartImageViewLayout : FrameLayout {
                 textView.visibility = View.GONE
                 linearLayout1.visibility = View.GONE
                 frameLayout1.visibility = View.GONE
+                frameLayout2.visibility = View.GONE
             }
             2 -> {
                 smartImageView1.putImage(urls[0])
@@ -65,6 +66,7 @@ class SmartImageViewLayout : FrameLayout {
                 textView.visibility = View.GONE
                 linearLayout1.visibility = View.VISIBLE
                 frameLayout1.visibility = View.GONE
+                frameLayout2.visibility = View.GONE
             }
             3 -> {
                 smartImageView1.putImage(urls[0])
@@ -73,12 +75,24 @@ class SmartImageViewLayout : FrameLayout {
                 textView.visibility = View.GONE
                 linearLayout1.visibility = View.VISIBLE
                 frameLayout1.visibility = View.VISIBLE
+                frameLayout2.visibility = View.GONE
+            }
+            4 ->{
+                smartImageView1.putImage(urls[0])
+                smartImageView2.putImage(urls[1])
+                smartImageView3.putImage(urls[2])
+                smartImageView4.putImage(urls[3])
+                textView.visibility = View.GONE
+                linearLayout1.visibility = View.VISIBLE
+                frameLayout1.visibility = View.VISIBLE
+                frameLayout2.visibility = View.VISIBLE
             }
             else -> {
                 smartImageView1.putImage(urls[0])
                 smartImageView2.putImage(urls[1])
                 smartImageView3.putImage(urls[2])
-                textView.text = "+${count - 3}"
+                smartImageView4.putImage(urls[3])
+                textView.text = "+${count - 4}"
                 textView.visibility = View.VISIBLE
                 linearLayout1.visibility = View.VISIBLE
                 frameLayout1.visibility = View.VISIBLE
