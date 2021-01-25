@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SmartImageView.iml" filepath="$PROJECT_DIR$/SmartImageView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smartimageview2/smartimageview2.iml" filepath="$PROJECT_DIR$/smartimageview2/smartimageview2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SmartImageView3.iml" filepath="$PROJECT_DIR$/.idea/modules/SmartImageView3.iml" group="SmartImageView3" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="SmartImageView3/app" />
+      <module fileurl="file://$PROJECT_DIR$/smartimageview2/smartimageview2.iml" filepath="$PROJECT_DIR$/smartimageview2/smartimageview2.iml" group="SmartImageView3/smartimageview2" />
     </modules>
   </component>
 </project>

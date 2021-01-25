@@ -13,6 +13,7 @@
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:weightSum="2"
+        android:background="#FFFFFFFF"
         tools:context="com.teleclinic.bulent.smartimageview.SmartImageView">
 
 
@@ -21,6 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
+            android:background="#FFFFFFFF"
             android:layout_weight="1" />
 
         <LinearLayout
@@ -35,6 +37,8 @@
                 android:id="@+id/smartImageView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="#FFFFFFFF"
+                android:paddingLeft="3dp"
                 android:layout_weight="1" />
 
             <FrameLayout
@@ -59,6 +63,9 @@
                 <com.teleclinic.bulent.smartimageview.SmartImageView
                     android:id="@+id/smartImageView3"
                     android:layout_width="match_parent"
+                    android:background="#FFFFFFFF"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="3dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
 
